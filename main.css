@@ -104,7 +104,9 @@ h3 {
     position: absolute;
     top: 765px; 
     left: 735px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 148px;
     height: 49px;
     background-color: #fe8a02;
@@ -114,6 +116,7 @@ h3 {
     text-align: center;
     line-height: 25.6px; /* Выравнивание текста по вертикали */
     border: none;
+    text-decoration: none;
 }
 
 .video-header {

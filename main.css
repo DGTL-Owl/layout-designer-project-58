@@ -14,7 +14,7 @@ body {
     opacity: 0.9; */
 }
 section {
-    /* max-width: 1440px;  */
+    max-width: 1440px;  
     width: 100%; 
     min-height: 914px;
     position: relative; 
@@ -31,15 +31,21 @@ section {
     height: 100%;
     background-image: url("/src/images/background.png");
     background-repeat: no-repeat; 
-    /* background-size: cover; */
     opacity: 0.1;
-    z-index: -1; /* Чтобы фон был позади контента */
+    z-index: -1; 
 }
 .m-container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     position: relative;
+}
+.v-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
 }
 
  .video::before {
@@ -53,6 +59,7 @@ section {
     z-index: 2;
     min-height: 879px;
     margin-top: 0;
+    
 }
 .video::after {
     content: "";
@@ -184,7 +191,6 @@ h3 {
 .brown {
     width: 100%;
     background-color: #42413c;
-    /* margin-top: -168px; */
     height: 865px;
     align-items: center;
     display: flex;
@@ -266,15 +272,6 @@ a.card:hover .article,
     padding-left: 24px;
     width: 302px;
 }
-/* .article {
-   top: 185px;
-}
-.article2 {
-    top: 224px;
-}
-.article3 {
-    top: 220px;
-} */
 
 
 .container {
@@ -453,17 +450,16 @@ a.card:hover .article,
     margin: 0 auto; 
     background-color: #fff; 
     position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
  .block {
     background-color: #42413c;
     position: relative;
-    top: 100px;
-    left: 229px;
-    width: 1110px;
+    min-width: 1110px;
     height: 190px;
     display: flex;
-    /* align-items: center;
-    justify-content: left; */
     z-index: -1;
 } 
 .form-title {
@@ -548,12 +544,9 @@ a.card:hover .article,
 }
 .materials-link {
     position: relative;
-    /* display: flex; */
-    /* flex-direction: column; */
     min-width: 471px;
     height: 150px;
-    top: 365px;
-    left: -569px;  
+    top: 78px;
     text-align: center;
 }
 
@@ -569,7 +562,7 @@ a.card:hover .article,
 .materials {
     font-weight: 400;
     font-size: 14px;
-    line-height: 200%;
+    line-height: 260%;
     color:#000;
     letter-spacing: 0.2px;
 

@@ -8,21 +8,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #2a2626;
     background-color: #F5F4F0;
-    /* background-image: url("images/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9; */
 }
 section {
-    /* max-width: 1440px;   */
-    width: 100%; 
-    /* min-height: 914px; */
+    margin: 100px auto; 
     position: relative; 
-    z-index: 1;
-    /* display: flex; */
-    /* justify-content: center; */
-    margin: 100px auto;  
-    /* padding: 100px 0; */
 }
 section::before {
     content: "";
@@ -116,12 +105,8 @@ h3 {
 }
 .columns-2 {
     position: relative;
-    max-width: 1110px;
-    /* left:165px;
-    top: 540px; */
     column-count: 2;
     column-gap: 30px;
-    /* padding-left: 165px; */
     padding-top: 200px;
     line-height: 25px;
 }
@@ -292,7 +277,7 @@ a.card:hover .article,
     justify-content: space-between;
     max-width: 1110px;
     position: relative;
-    left: 165px;
+    /* left: 165px; */
     top: 100px;
     width: 100%;
 }
@@ -301,7 +286,7 @@ a.card:hover .article,
     align-items: center;
     justify-content: space-between;
     max-width: 1110px;
-    left: 165px;
+    /* left: 165px; */
     top: 100px; 
     width: 100%;
     position: relative;
@@ -310,18 +295,6 @@ a.card:hover .article,
 .container-reverse .two-column {
     flex-direction: row-reverse;
 }
-.container2 {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1110px;
-    position: absolute;
-    left: 165px;
-    top: 634px;
-    width: 100%;
-    gap: 30px;
-    padding-top: 20px;
-}
-
 .column {
     flex: 1;
     line-height: 25.6px;

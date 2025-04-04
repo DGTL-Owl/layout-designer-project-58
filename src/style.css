@@ -10,7 +10,7 @@ body {
     background-color: #F5F4F0;
 }
 section {
-    margin: 100px auto; 
+    padding: 100px 0; 
     position: relative; 
 }
 section::before {
@@ -23,20 +23,13 @@ section::before {
     background-position: 50% 0; 
     opacity: 0.1;
     z-index: -1; 
-    margin-top: -100px;
+    /* margin-top: -100px; */
 }
 .m-container {
     max-width: 1110px; 
     width: 100%;
     margin: 0 auto;
     position: relative;
-}
-.v-container {
-    max-width: 1110px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-
 }
 
  .video::before {
@@ -45,21 +38,14 @@ section::before {
  }
 .video {
     position: relative;
+}
+.bg-white {
     background-color: #fff;
-    width: 100%;
-    z-index: 2;
 }
-.video::after {
-    content: "";
-    /* color: red; */
-    position: absolute;
-    bottom: -133px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    z-index: 3;
-    background-color: #42413c;
+.mbn100px {
+    margin-bottom: -100px;
 }
+
 .cogn-img {
     position: absolute;
     height: 525px;
@@ -123,7 +109,7 @@ h3 {
 
 .video-header {
     position: relative;
-    top: 72px; 
+    /* top: 72px;  */
     margin: 0 0;
     text-align: center;
     font-size: 60px;
@@ -133,7 +119,7 @@ h3 {
 .video-link {
     position: relative;
     text-align: center;
-    top: 130px;
+    top: 30px; 
 }
 a {
     display: inline-block;
@@ -156,18 +142,21 @@ a {
     font-size: 16px;
     text-align: center;
     position: relative;
-    height: 26px;
+    /* height: 26px; */
     margin: 0;
-    top: 100px; 
+    /* top: 100px;  */
 }
 #navigation::before {
     z-index: -1;
     content: none;
 }
 
-.brown {
+.bg-gray {
     width: 100%;
     background-color: #42413c;
+}
+.pt200 {
+    padding-top: 200px;
 }
 .navigation {
     position: relative;
